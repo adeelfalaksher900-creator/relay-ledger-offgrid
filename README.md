@@ -6,6 +6,8 @@ Update tasks without a network. Meet another team member, exchange an encrypted 
 
 ## Try it
 
+**[Open the live demo](https://relay-ledger-offgrid.vercel.app/)** · [Source code](https://github.com/adeelfalaksher900-creator/relay-ledger-offgrid)
+
 The initial community repair board is a **guided fictional example**. Select one of the differing status updates to record a decision, inspect History, or create a new board. Add a task, choose its owner, status and notes, then save. Changes are explicitly saved on this device.
 
 For a real two-device handoff:

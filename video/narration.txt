@@ -1,0 +1,19 @@
+When the internet stops, volunteer work usually does not. Relay Ledger keeps a small team's tasks moving, without an account or a central server.
+
+This is the actual app. The example is a community repair day. Tasks have an owner, a status, and notes for the next person. I can create a fresh board and add a task in a few seconds. Each change is saved on this device.
+
+Now imagine two volunteers working separately. One marks the same task in progress. The other marks it done. A timestamp should not silently choose who is right.
+
+Relay Ledger exchanges the full update history. In Exchange, I prepare an encrypted snapshot using a passphrase. I can save a handoff file, or show a repeating stream of QR packets. The passphrase is shared separately. It is never inside the QR code.
+
+The other device collects the packets in any order. Duplicate frames are ignored. Missing frames stay visible, and nothing imports until the package is complete. A file is the fallback when a camera is slow or the board is large.
+
+Here I open the incoming handoff. A wrong passphrase fails safely. With the right one, I see a preview before merging.
+
+Both independent updates are preserved. The board asks for a decision. Choosing a status creates a new update that acknowledges both earlier versions. History keeps the context, and importing an older copy cannot erase the decision.
+
+The app can reopen offline after its first complete installation. Local workspace data is plaintext; handoff encryption is a separate boundary. Names are labels, not verified identities. Physical camera performance still needs device testing.
+
+Built for OFFGRID, Relay Ledger combines a causal event model, authenticated encryption, real QR decoding, and deliberate merge review. The code is open source. Our next step is testing these handoffs with small volunteer teams.
+
+Keep the work moving. Even when the connection stops.
