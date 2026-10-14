@@ -13,3 +13,7 @@ deliverables/
 video/assets/
 video/composition/.hyperframes/
 premium-audit.json
+
+video/raw/
+video/transcript.json
+video/composition/check.json

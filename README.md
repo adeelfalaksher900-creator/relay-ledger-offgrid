@@ -22,6 +22,8 @@ For a real two-device handoff:
 
 QR reception measures unique packets. Order and duplicates do not matter; missing packets must arrive before import. File exchange is the practical fallback for larger histories, unsupported cameras or poor lighting. Opening a page for the first time still needs connectivity. Browser cache/storage can be evicted, so keep encrypted backups.
 
+![Relay Ledger Field Paper interface](docs/thumbnail.png)
+
 ## Run locally
 
 Use Node 22.12+ or 24.x and npm:
@@ -57,7 +59,7 @@ Handoffs use Web Crypto AES-256-GCM, a fresh 96-bit IV and 128-bit salt, PBKDF2-
 - No hidden server sync, telemetry or audio/location data collection. The app uses self-hosted fonts and dependencies. Hosting receives normal page/asset requests.
 - Never use the prototype as an emergency dispatch, regulated inventory or tamper-proof audit system. Physical screen-to-camera performance needs real-device validation; synthetic bitmap tests cannot prove it.
 
-See [SECURITY.md](SECURITY.md), [research notes](docs/RESEARCH.md) and [architecture](docs/ARCHITECTURE.md).
+See [SECURITY.md](SECURITY.md), [research notes](docs/RESEARCH.md), [architecture](docs/ARCHITECTURE.md) and [verification evidence](docs/REVIEW.md).
 
 ## Contribute
 
@@ -75,6 +77,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, focused changes and evidence e
 | `tests/qr.test.mjs` | Actual PNG → jsQR → encrypted board round-trip |
 | `docs/` | Research, architecture, review and testing evidence |
 | `video/` | Reproducible real-app demonstration and HyperFrames composition |
+
+## Demo and media
+
+The actual-app demonstration is 2:10, 1920×1080 at 30fps, with reviewed captions and a disclosed stock synthetic student-style voice. Fifteen gallery images show the running implementation. See [media verification](docs/MEDIA-VERIFICATION.md) and [video reproduction](video/README.md). Public YouTube/Vimeo hosting is pending; no invented watch URL is provided.
 
 ## Build and AI disclosure
 

@@ -1,0 +1,182 @@
+[
+  {
+    "start": 0,
+    "end": 3.92,
+    "text": "When the internet stops, volunteer work usually does not."
+  },
+  {
+    "start": 3.92,
+    "end": 9.94,
+    "text": "Relay Ledger keeps a small team's tasks moving without an account or a central server."
+  },
+  {
+    "start": 9.94,
+    "end": 11.4,
+    "text": "This is the actual app."
+  },
+  {
+    "start": 11.4,
+    "end": 14.42,
+    "text": "The example is a community repair day."
+  },
+  {
+    "start": 14.42,
+    "end": 18.16,
+    "text": "Tasks have an owner, a status, and notes for the next person."
+  },
+  {
+    "start": 18.16,
+    "end": 21.98,
+    "text": "I can create a fresh board and add a task in a few seconds."
+  },
+  {
+    "start": 21.98,
+    "end": 24.6,
+    "text": "Each change is saved on this device."
+  },
+  {
+    "start": 24.6,
+    "end": 28.08,
+    "text": "Now imagine two volunteers working separately."
+  },
+  {
+    "start": 28.08,
+    "end": 32.28,
+    "text": "One marks the same task in progress, the other marks it done."
+  },
+  {
+    "start": 32.28,
+    "end": 36.2,
+    "text": "A timestamp should not silently choose who is right."
+  },
+  {
+    "start": 36.2,
+    "end": 39.58,
+    "text": "Relay Ledger exchanges the full update history."
+  },
+  {
+    "start": 39.58,
+    "end": 43.84,
+    "text": "In exchange, I prepare an encrypted snapshot using a passphrase."
+  },
+  {
+    "start": 43.84,
+    "end": 49.12,
+    "text": "I can save a handoff file or show a repeating stream of QR packets."
+  },
+  {
+    "start": 49.12,
+    "end": 51.26,
+    "text": "The passphrase is shared separately."
+  },
+  {
+    "start": 51.26,
+    "end": 53.72,
+    "text": "It is never inside the QR code."
+  },
+  {
+    "start": 53.72,
+    "end": 57.12,
+    "text": "The other device collects the packets in any order."
+  },
+  {
+    "start": 57.12,
+    "end": 58.88,
+    "text": "Duplicate frames are ignored."
+  },
+  {
+    "start": 58.88,
+    "end": 63.56,
+    "text": "Missing frames stay visible, and nothing imports until the package is complete."
+  },
+  {
+    "start": 63.56,
+    "end": 68.36,
+    "text": "A file is the fallback when a camera is slow or the board is large."
+  },
+  {
+    "start": 68.36,
+    "end": 70.52,
+    "text": "Here I open the incoming handoff."
+  },
+  {
+    "start": 70.52,
+    "end": 73.28,
+    "text": "A wrong passphrase fails safely."
+  },
+  {
+    "start": 73.28,
+    "end": 76.76,
+    "text": "With the right one, I see a preview before merging."
+  },
+  {
+    "start": 76.76,
+    "end": 79.18,
+    "text": "Both independent updates are preserved."
+  },
+  {
+    "start": 79.18,
+    "end": 81.48,
+    "text": "The board asks for a decision."
+  },
+  {
+    "start": 81.48,
+    "end": 86.68,
+    "text": "Choosing a status creates a new update that acknowledges both earlier versions."
+  },
+  {
+    "start": 86.68,
+    "end": 91.68,
+    "text": "History keeps the context, and importing an older copy cannot erase the decision."
+  },
+  {
+    "start": 91.68,
+    "end": 96.3,
+    "text": "The app can reopen offline after its first complete installation."
+  },
+  {
+    "start": 96.3,
+    "end": 98.96000000000001,
+    "text": "Local workspace data is plain text."
+  },
+  {
+    "start": 98.96000000000001,
+    "end": 101.6,
+    "text": "Handoff encryption is a separate boundary."
+  },
+  {
+    "start": 101.6,
+    "end": 104.64,
+    "text": "Names are labels, not verified identities."
+  },
+  {
+    "start": 104.64,
+    "end": 108.4,
+    "text": "Physical camera performance still needs device testing."
+  },
+  {
+    "start": 108.4,
+    "end": 114.52000000000001,
+    "text": "Built for OFFGRID, Relay Ledger combines a causal event model, authenticated encryption,"
+  },
+  {
+    "start": 114.52000000000001,
+    "end": 118.08,
+    "text": "real QR decoding, and deliberate merge review."
+  },
+  {
+    "start": 118.08,
+    "end": 120.04,
+    "text": "The code is open source."
+  },
+  {
+    "start": 120.04,
+    "end": 124.32,
+    "text": "Our next step is testing these handoffs with small volunteer teams."
+  },
+  {
+    "start": 124.32,
+    "end": 127.16,
+    "text": "Keep the work moving, even when the connection stops."
+  }
+]

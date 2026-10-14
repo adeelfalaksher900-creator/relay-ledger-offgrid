@@ -1,19 +1,9 @@
-# OFFGRID publishing checkpoint
+# OFFGRID publishing checkpoint · 14 October 2026
 
-Status: application source and Vercel demo published; Devpost draft created but not finalized.
+Project: Relay Ledger. Repository: https://github.com/adeelfalaksher900-creator/relay-ledger-offgrid . Live app: https://relay-ledger-offgrid.vercel.app/ . Devpost preview: https://devpost.com/software/relay-ledger . Submission ID 1236877, hackathon ID 31035.
 
-Live app: https://relay-ledger-offgrid.vercel.app/
-Repository: https://github.com/adeelfalaksher900-creator/relay-ledger-offgrid
-Devpost project preview route observed: https://devpost.com/software/relay-ledger
-Submission ID: 1236877. Software ID: 1482453. Hackathon ID: 31035.
+Completed: application source; working Vercel deployment; anonymous HTTP 200 and matching offline cache manifest; 16 passing tests; two-context UI exchange/offline tests; 390px layout and tested-state axe checks; final 130-second 1920×1080/30fps HyperFrames MP4 with stock Liam narration and subtitles; 15 verified actual-app gallery uploads with matching captions; complete story, stack tags and both project links saved in Devpost. Thumbnail upload has been initiated and must be confirmed in the final draft review.
 
-16 unit/QR/camera/packaging tests pass; browser-verification.json records the completed UI checks. Source app should remain consistent with the demo capture. Never modify other personal projects.
+Pending: attach reviewed source ZIP; confirm thumbnail persistence and all 15 captions; public YouTube/Vimeo video link; final user approval and rules acceptance/submission. No final submission has been made. Do not accept rules or infer eligibility from prior registration. The official overview and detailed rules contain an eligibility discrepancy documented in RESEARCH.md.
 
-Pending: complete the final HyperFrames composition and 1080p MP4; inspect keyframes and sound; save deliverables; upload thumbnail and 15 gallery images with matching captions; populate Devpost story/tags/demo/source links; inspect Additional info; obtain user approval before final rule acceptance/submission. No final submission has been made.
-
-Media scratch root: /workspace/scratch/90d9c6511385/relay-ledger
-A complete 130-second actual-app capture exists at video/assets/walkthrough.webm. Its first pass includes briefly resized screenshot captures; record-demo.mjs was updated to record native 1920×1080 without those resize jumps and needs rerunning. The failed later invocation did not start a new recording because the workspace connection went offline.
-Generated voice: video/assets/narration.mp3, 127.242449 seconds, Liam stock voice. Free credits used: 28. No new generation needed. Narration source: video/narration.txt. Corrected subtitles: video/transcript.srt; transcription incorrectly heard 'Imported' and was corrected to 'Duplicate' from the script.
-HyperFrames project initialized at video/composition, CLI pinned 0.8.151; index.html is still the starter, not final. Actual gallery screenshots 01–15 were captured under deliverables/gallery; mobile image needs a deliberate 3:2 presentation canvas for Devpost. Thumbnail is not yet generated.
-
-The local runtime/browser became disconnected after source publication. This checkpoint avoids treating incomplete video or Devpost work as complete. Vercel's UI confirmed successful deployment; live app was opened. The later anonymous-response/header verification command had not returned a result and must not be claimed as passed.
+The production application was not changed after capture. Media render/thumbnail/gallery artifacts are delivered separately; large binaries and dependency caches are excluded from the source repository. Optional HyperFrames telemetry was disabled before the successful final local render. No additional paid service or voice generation was used.

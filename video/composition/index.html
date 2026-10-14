@@ -1,0 +1,93 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><script src="assets/gsap.min.js"></script><style>
+@font-face{font-family:'Source Sans 3';src:url('assets/source-sans-3.woff2') format('woff2');font-weight:400;font-display:block}*{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#F5F1E8;color:#23332E;font-family:'Source Sans 3',sans-serif}#root{width:100%;height:100%;position:relative;overflow:hidden}.clip{position:absolute;inset:0}#walkthrough{width:1920px;height:1080px;object-fit:contain}.caption-band{position:absolute;bottom:0;left:0;right:0;height:102px;background:#F5F1E8;border-top:1px solid #D5D4C8;z-index:4}.caption{top:auto;bottom:26px;height:60px;left:110px;right:110px;display:flex;align-items:center;justify-content:center;text-align:center;z-index:5;font-size:32px;line-height:1.2}.caption p{margin:0;max-width:1660px}.chapter{inset:auto 40px 108px auto;height:44px;display:flex;align-items:center;background:#FBF9F4;border:1px solid #D5D4C8;border-radius:6px;padding:0 16px;z-index:3;font-size:21px;color:#315D4E}.disclosure{inset:auto auto 112px 40px;font-size:18px;color:#5E6861;height:32px;z-index:3;background:#F5F1E8;padding:4px 10px;border-radius:4px}.ending{display:flex;align-items:center;justify-content:center;color:#315D4E;font-size:32px}
+</style></head><body><div id="root" data-composition-id="relay-demo" data-start="0" data-duration="130" data-width="1920" data-height="1080">
+<video id="walkthrough" class="clip" src="assets/walkthrough.mp4" muted playsinline data-start="0" data-duration="130" data-track-index="0"></video>
+<audio id="narration" src="assets/narration.mp3" data-start="0" data-duration="127.242449" data-track-index="1" data-volume="1"></audio>
+<div class="caption-band" data-layout-ignore></div>
+<div id="caption-0" class="clip caption" data-start="0" data-duration="3.920" data-track-index="2"><p id="caption-text-0">When the internet stops, volunteer work usually does not.</p></div>
+<div id="caption-1" class="clip caption" data-start="3.92" data-duration="6.020" data-track-index="2"><p id="caption-text-1">Relay Ledger keeps a small team's tasks moving without an account or a central server.</p></div>
+<div id="caption-2" class="clip caption" data-start="9.94" data-duration="1.460" data-track-index="2"><p id="caption-text-2">This is the actual app.</p></div>
+<div id="caption-3" class="clip caption" data-start="11.4" data-duration="3.020" data-track-index="2"><p id="caption-text-3">The example is a community repair day.</p></div>
+<div id="caption-4" class="clip caption" data-start="14.42" data-duration="3.740" data-track-index="2"><p id="caption-text-4">Tasks have an owner, a status, and notes for the next person.</p></div>
+<div id="caption-5" class="clip caption" data-start="18.16" data-duration="3.820" data-track-index="2"><p id="caption-text-5">I can create a fresh board and add a task in a few seconds.</p></div>
+<div id="caption-6" class="clip caption" data-start="21.98" data-duration="2.620" data-track-index="2"><p id="caption-text-6">Each change is saved on this device.</p></div>
+<div id="caption-7" class="clip caption" data-start="24.6" data-duration="3.480" data-track-index="2"><p id="caption-text-7">Now imagine two volunteers working separately.</p></div>
+<div id="caption-8" class="clip caption" data-start="28.08" data-duration="4.200" data-track-index="2"><p id="caption-text-8">One marks the same task in progress, the other marks it done.</p></div>
+<div id="caption-9" class="clip caption" data-start="32.28" data-duration="3.920" data-track-index="2"><p id="caption-text-9">A timestamp should not silently choose who is right.</p></div>
+<div id="caption-10" class="clip caption" data-start="36.2" data-duration="3.380" data-track-index="2"><p id="caption-text-10">Relay Ledger exchanges the full update history.</p></div>
+<div id="caption-11" class="clip caption" data-start="39.58" data-duration="4.260" data-track-index="2"><p id="caption-text-11">In exchange, I prepare an encrypted snapshot using a passphrase.</p></div>
+<div id="caption-12" class="clip caption" data-start="43.84" data-duration="5.280" data-track-index="2"><p id="caption-text-12">I can save a handoff file or show a repeating stream of QR packets.</p></div>
+<div id="caption-13" class="clip caption" data-start="49.12" data-duration="2.140" data-track-index="2"><p id="caption-text-13">The passphrase is shared separately.</p></div>
+<div id="caption-14" class="clip caption" data-start="51.26" data-duration="2.460" data-track-index="2"><p id="caption-text-14">It is never inside the QR code.</p></div>
+<div id="caption-15" class="clip caption" data-start="53.72" data-duration="3.400" data-track-index="2"><p id="caption-text-15">The other device collects the packets in any order.</p></div>
+<div id="caption-16" class="clip caption" data-start="57.12" data-duration="1.760" data-track-index="2"><p id="caption-text-16">Duplicate frames are ignored.</p></div>
+<div id="caption-17" class="clip caption" data-start="58.88" data-duration="4.680" data-track-index="2"><p id="caption-text-17">Missing frames stay visible, and nothing imports until the package is complete.</p></div>
+<div id="caption-18" class="clip caption" data-start="63.56" data-duration="4.800" data-track-index="2"><p id="caption-text-18">A file is the fallback when a camera is slow or the board is large.</p></div>
+<div id="caption-19" class="clip caption" data-start="68.36" data-duration="2.160" data-track-index="2"><p id="caption-text-19">Here I open the incoming handoff.</p></div>
+<div id="caption-20" class="clip caption" data-start="70.52" data-duration="2.760" data-track-index="2"><p id="caption-text-20">A wrong passphrase fails safely.</p></div>
+<div id="caption-21" class="clip caption" data-start="73.28" data-duration="3.480" data-track-index="2"><p id="caption-text-21">With the right one, I see a preview before merging.</p></div>
+<div id="caption-22" class="clip caption" data-start="76.76" data-duration="2.420" data-track-index="2"><p id="caption-text-22">Both independent updates are preserved.</p></div>
+<div id="caption-23" class="clip caption" data-start="79.18" data-duration="2.300" data-track-index="2"><p id="caption-text-23">The board asks for a decision.</p></div>
+<div id="caption-24" class="clip caption" data-start="81.48" data-duration="5.200" data-track-index="2"><p id="caption-text-24">Choosing a status creates a new update that acknowledges both earlier versions.</p></div>
+<div id="caption-25" class="clip caption" data-start="86.68" data-duration="5.000" data-track-index="2"><p id="caption-text-25">History keeps the context, and importing an older copy cannot erase the decision.</p></div>
+<div id="caption-26" class="clip caption" data-start="91.68" data-duration="4.620" data-track-index="2"><p id="caption-text-26">The app can reopen offline after its first complete installation.</p></div>
+<div id="caption-27" class="clip caption" data-start="96.3" data-duration="2.660" data-track-index="2"><p id="caption-text-27">Local workspace data is plain text.</p></div>
+<div id="caption-28" class="clip caption" data-start="98.96000000000001" data-duration="2.640" data-track-index="2"><p id="caption-text-28">Handoff encryption is a separate boundary.</p></div>
+<div id="caption-29" class="clip caption" data-start="101.6" data-duration="3.040" data-track-index="2"><p id="caption-text-29">Names are labels, not verified identities.</p></div>
+<div id="caption-30" class="clip caption" data-start="104.64" data-duration="3.760" data-track-index="2"><p id="caption-text-30">Physical camera performance still needs device testing.</p></div>
+<div id="caption-31" class="clip caption" data-start="108.4" data-duration="6.120" data-track-index="2"><p id="caption-text-31">Built for OFFGRID, Relay Ledger combines a causal event model, authenticated encryption,</p></div>
+<div id="caption-32" class="clip caption" data-start="114.52000000000001" data-duration="3.560" data-track-index="2"><p id="caption-text-32">real QR decoding, and deliberate merge review.</p></div>
+<div id="caption-33" class="clip caption" data-start="118.08" data-duration="1.960" data-track-index="2"><p id="caption-text-33">The code is open source.</p></div>
+<div id="caption-34" class="clip caption" data-start="120.04" data-duration="4.280" data-track-index="2"><p id="caption-text-34">Our next step is testing these handoffs with small volunteer teams.</p></div>
+<div id="caption-35" class="clip caption" data-start="124.32" data-duration="2.840" data-track-index="2"><p id="caption-text-35">Keep the work moving, even when the connection stops.</p></div>
+<div id="chapter-0" class="clip chapter" data-start="0" data-duration="24.600" data-track-index="3"><span id="chapter-text-0">01 / A board that stays with you</span></div>
+<div id="chapter-1" class="clip chapter" data-start="24.6" data-duration="11.600" data-track-index="3"><span id="chapter-text-1">02 / Independent edits, preserved</span></div>
+<div id="chapter-2" class="clip chapter" data-start="36.2" data-duration="17.520" data-track-index="3"><span id="chapter-text-2">03 / An encrypted handoff</span></div>
+<div id="chapter-3" class="clip chapter" data-start="53.72" data-duration="14.640" data-track-index="3"><span id="chapter-text-3">04 / Real QR decoding</span></div>
+<div id="chapter-4" class="clip chapter" data-start="68.36" data-duration="23.320" data-track-index="3"><span id="chapter-text-4">05 / Preview. Merge. Decide.</span></div>
+<div id="chapter-5" class="clip chapter" data-start="91.68" data-duration="16.720" data-track-index="3"><span id="chapter-text-5">06 / Offline, with clear boundaries</span></div>
+<div id="chapter-6" class="clip chapter" data-start="108.4" data-duration="21.600" data-track-index="3"><span id="chapter-text-6">Relay Ledger · HACK47: OFFGRID</span></div>
+<div id="disclosure" class="clip disclosure" data-start="0" data-duration="130" data-track-index="4">Actual app · Stock synthetic narration</div>
+<div id="ending" class="clip caption ending" data-start="127.25" data-duration="2.75" data-track-index="2"><p>relay-ledger-offgrid.vercel.app</p></div>
+</div><script>const tl=gsap.timeline({paused:true});tl.fromTo('#caption-text-0',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},0);
+tl.fromTo('#caption-text-1',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},3.92);
+tl.fromTo('#caption-text-2',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},9.94);
+tl.fromTo('#caption-text-3',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},11.4);
+tl.fromTo('#caption-text-4',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},14.42);
+tl.fromTo('#caption-text-5',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},18.16);
+tl.fromTo('#caption-text-6',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},21.98);
+tl.fromTo('#caption-text-7',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},24.6);
+tl.fromTo('#caption-text-8',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},28.08);
+tl.fromTo('#caption-text-9',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},32.28);
+tl.fromTo('#caption-text-10',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},36.2);
+tl.fromTo('#caption-text-11',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},39.58);
+tl.fromTo('#caption-text-12',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},43.84);
+tl.fromTo('#caption-text-13',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},49.12);
+tl.fromTo('#caption-text-14',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},51.26);
+tl.fromTo('#caption-text-15',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},53.72);
+tl.fromTo('#caption-text-16',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},57.12);
+tl.fromTo('#caption-text-17',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},58.88);
+tl.fromTo('#caption-text-18',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},63.56);
+tl.fromTo('#caption-text-19',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},68.36);
+tl.fromTo('#caption-text-20',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},70.52);
+tl.fromTo('#caption-text-21',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},73.28);
+tl.fromTo('#caption-text-22',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},76.76);
+tl.fromTo('#caption-text-23',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},79.18);
+tl.fromTo('#caption-text-24',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},81.48);
+tl.fromTo('#caption-text-25',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},86.68);
+tl.fromTo('#caption-text-26',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},91.68);
+tl.fromTo('#caption-text-27',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},96.3);
+tl.fromTo('#caption-text-28',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},98.96000000000001);
+tl.fromTo('#caption-text-29',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},101.6);
+tl.fromTo('#caption-text-30',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},104.64);
+tl.fromTo('#caption-text-31',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},108.4);
+tl.fromTo('#caption-text-32',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},114.52000000000001);
+tl.fromTo('#caption-text-33',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},118.08);
+tl.fromTo('#caption-text-34',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},120.04);
+tl.fromTo('#caption-text-35',{opacity:0,y:3},{opacity:1,y:0,duration:.10,ease:'power2.out'},124.32);tl.fromTo('#chapter-text-0',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},0);
+tl.fromTo('#chapter-text-1',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},24.6);
+tl.fromTo('#chapter-text-2',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},36.2);
+tl.fromTo('#chapter-text-3',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},53.72);
+tl.fromTo('#chapter-text-4',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},68.36);
+tl.fromTo('#chapter-text-5',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},91.68);
+tl.fromTo('#chapter-text-6',{opacity:0},{opacity:1,duration:.16,ease:'power1.out'},108.4);window.__timelines['relay-demo']=tl;tl.seek(0);</script></body></html>

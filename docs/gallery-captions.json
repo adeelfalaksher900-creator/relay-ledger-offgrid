@@ -1,0 +1,77 @@
+[
+  {
+    "file": "01-board.png",
+    "title": "A board that stays with you",
+    "caption": "A clearly labelled fictional repair-day board. Review a real causal conflict, or start your own workspace."
+  },
+  {
+    "file": "02-task-details.png",
+    "title": "Context for the next person",
+    "caption": "Each task records a title, owner, status and handoff notes. This is the actual editable task form."
+  },
+  {
+    "file": "03-new-task.png",
+    "title": "Create useful handoff notes",
+    "caption": "Add a task with an owner and practical notes. The form validates before saving on this device."
+  },
+  {
+    "file": "04-new-board.png",
+    "title": "Start your own workspace",
+    "caption": "The new Book drive handoff board contains a locally saved task, created through the real app."
+  },
+  {
+    "file": "05-encrypted-snapshot.png",
+    "title": "Prepare an encrypted snapshot",
+    "caption": "The full board history is encrypted locally. Export a file or prepare numbered QR packets."
+  },
+  {
+    "file": "06-qr-stream.png",
+    "title": "A repeating optical handoff",
+    "caption": "Genuine encrypted QR packets repeat on screen. Share the passphrase separately; file exchange remains available."
+  },
+  {
+    "file": "07-qr-collection.png",
+    "title": "Missing packets stay visible",
+    "caption": "The receiver decoded real QR image pixels. Reordered packets and a duplicate leave an incomplete package unimported."
+  },
+  {
+    "file": "08-wrong-passphrase.png",
+    "title": "Fail safely, keep the board",
+    "caption": "An incorrect passphrase is rejected. Nothing imports, and the current workspace is preserved."
+  },
+  {
+    "file": "09-incoming-preview.png",
+    "title": "Review before merging",
+    "caption": "A decrypted task preview and new-update count appear before the user explicitly accepts the handoff."
+  },
+  {
+    "file": "10-concurrent-decision.png",
+    "title": "Two updates. One human decision.",
+    "caption": "Independent status edits from isolated browser contexts survive the merge and appear together for review."
+  },
+  {
+    "file": "11-resolution.png",
+    "title": "A decision with its context",
+    "caption": "Choosing a status records a new update that observes both earlier versions. Previous history is retained."
+  },
+  {
+    "file": "12-history.png",
+    "title": "Follow the update history",
+    "caption": "Inspect authors, field changes and causal parent counts. Labels and timestamps are informational, not verified identity."
+  },
+  {
+    "file": "13-offline.png",
+    "title": "The connection can stop",
+    "caption": "The installed app reopens with browser networking disabled. Initial installation still requires a complete online load."
+  },
+  {
+    "file": "14-guide.png",
+    "title": "Clear product boundaries",
+    "caption": "The in-app guide explains handoffs, plaintext local storage, prototype limits and camera-testing boundaries."
+  },
+  {
+    "file": "15-mobile.png",
+    "title": "A smaller screen, the same work",
+    "caption": "A real 390px responsive viewport, presented without stretching. Physical device camera performance remains untested."
+  }
+]

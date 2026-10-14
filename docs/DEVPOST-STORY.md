@@ -50,7 +50,7 @@ The prototype supports 60 tasks, 500 events and 128 KiB of validated board JSON.
 
 Built from scratch on **14 October 2026**: the causal model, validation, encrypted handoff format, packet collector, real QR integration, review UI, offline installation checks, security configuration, regression tests and documentation. Existing libraries and the Product Design starter are disclosed in the repository's third-party notices. The starter's optional Sites packaging is not a server or sync backend.
 
-OpenAI Codex assisted research, implementation, testing, independent review, documentation and media preparation. Generated concepts guided the selected design; captured gallery images show the actual implementation. The demonstration's stock synthetic **Liam narration was generated through ElevenLabs via vidIQ using existing free credits**. It does not impersonate a team member. The application itself does not use an AI model, and OFFGRID does not require one.
+OpenAI Codex assisted research, implementation, testing, independent review, documentation and media production. Generated concepts guided the selected design; captured gallery images show the actual implementation. The 2:10 actual-app demonstration was rendered locally in HyperFrames at 1920×1080 and 30fps, with reviewed subtitles. The demonstration's stock synthetic **Liam narration was generated through ElevenLabs via vidIQ using existing free credits**. It does not impersonate a team member. The application itself does not use an AI model, and OFFGRID does not require one.
 
 ## What's next
 

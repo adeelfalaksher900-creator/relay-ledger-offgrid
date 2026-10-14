@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:03,920
+ When the internet stops, volunteer work usually does not.
+
+2
+00:00:03,920 --> 00:00:09,940
+ Relay Ledger keeps a small team's tasks moving without an account or a central server.
+
+3
+00:00:09,940 --> 00:00:11,400
+ This is the actual app.
+
+4
+00:00:11,400 --> 00:00:14,420
+ The example is a community repair day.
+
+5
+00:00:14,420 --> 00:00:18,160
+ Tasks have an owner, a status, and notes for the next person.
+
+6
+00:00:18,160 --> 00:00:21,980
+ I can create a fresh board and add a task in a few seconds.
+
+7
+00:00:21,980 --> 00:00:24,600
+ Each change is saved on this device.
+
+8
+00:00:24,600 --> 00:00:28,080
+ Now imagine two volunteers working separately.
+
+9
+00:00:28,080 --> 00:00:32,280
+ One marks the same task in progress, the other marks it done.
+
+10
+00:00:32,280 --> 00:00:36,200
+ A timestamp should not silently choose who is right.
+
+11
+00:00:36,200 --> 00:00:39,580
+ Relay Ledger exchanges the full update history.
+
+12
+00:00:39,580 --> 00:00:43,840
+ In exchange, I prepare an encrypted snapshot using a passphrase.
+
+13
+00:00:43,840 --> 00:00:49,120
+ I can save a handoff file or show a repeating stream of QR packets.
+
+14
+00:00:49,120 --> 00:00:51,260
+ The passphrase is shared separately.
+
+15
+00:00:51,260 --> 00:00:53,720
+ It is never inside the QR code.
+
+16
+00:00:53,720 --> 00:00:57,120
+ The other device collects the packets in any order.
+
+17
+00:00:57,120 --> 00:00:58,880
+ Duplicate frames are ignored.
+
+18
+00:00:58,880 --> 00:01:03,560
+ Missing frames stay visible, and nothing imports until the package is complete.
+
+19
+00:01:03,560 --> 00:01:08,360
+ A file is the fallback when a camera is slow or the board is large.
+
+20
+00:01:08,360 --> 00:01:10,520
+ Here I open the incoming handoff.
+
+21
+00:01:10,520 --> 00:01:13,280
+ A wrong passphrase fails safely.
+
+22
+00:01:13,280 --> 00:01:16,760
+ With the right one, I see a preview before merging.
+
+23
+00:01:16,760 --> 00:01:19,180
+ Both independent updates are preserved.
+
+24
+00:01:19,180 --> 00:01:21,480
+ The board asks for a decision.
+
+25
+00:01:21,480 --> 00:01:26,680
+ Choosing a status creates a new update that acknowledges both earlier versions.
+
+26
+00:01:26,680 --> 00:01:31,680
+ History keeps the context, and importing an older copy cannot erase the decision.
+
+27
+00:01:31,680 --> 00:01:36,300
+ The app can reopen offline after its first complete installation.
+
+28
+00:01:36,300 --> 00:01:38,960
+ Local workspace data is plain text.
+
+29
+00:01:38,960 --> 00:01:41,600
+ Handoff encryption is a separate boundary.
+
+30
+00:01:41,600 --> 00:01:44,640
+ Names are labels, not verified identities.
+
+31
+00:01:44,640 --> 00:01:48,400
+ Physical camera performance still needs device testing.
+
+32
+00:01:48,400 --> 00:01:54,520
+ Built for OFFGRID, Relay Ledger combines a causal event model, authenticated encryption,
+
+33
+00:01:54,520 --> 00:01:58,080
+ real QR decoding, and deliberate merge review.
+
+34
+00:01:58,080 --> 00:02:00,040
+ The code is open source.
+
+35
+00:02:00,040 --> 00:02:04,320
+ Our next step is testing these handoffs with small volunteer teams.
+
+36
+00:02:04,320 --> 00:02:07,160
+ Keep the work moving, even when the connection stops.
+

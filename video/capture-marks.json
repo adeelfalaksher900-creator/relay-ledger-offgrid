@@ -1,0 +1,42 @@
+[
+  {
+    "name": "opening board",
+    "seconds": 0.00009306599999990794
+  },
+  {
+    "name": "task saved",
+    "seconds": 21.048569513000004
+  },
+  {
+    "name": "independent status",
+    "seconds": 24.866964147
+  },
+  {
+    "name": "QR stream",
+    "seconds": 45.081539888
+  },
+  {
+    "name": "real QR packet collection",
+    "seconds": 50.775654625
+  },
+  {
+    "name": "wrong passphrase",
+    "seconds": 69.10848666599999
+  },
+  {
+    "name": "concurrent review",
+    "seconds": 77.09473992400001
+  },
+  {
+    "name": "history",
+    "seconds": 87.36531710300001
+  },
+  {
+    "name": "offline reload",
+    "seconds": 92.15996342
+  },
+  {
+    "name": "end",
+    "seconds": 130.334014605
+  }
+]
