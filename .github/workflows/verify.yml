@@ -28,10 +28,10 @@ jobs:
           cache: npm
       - name: Install locked dependencies
         run: npm ci
-      - name: Run all regression tests
-        run: npm test
       - name: Build production app and offline package
         run: npm run build
+      - name: Run all regression tests
+        run: npm test
       - name: Verify deployment entry points
         run: |
           test -s dist/client/index.html
