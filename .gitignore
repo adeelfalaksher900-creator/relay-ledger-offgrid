@@ -1,0 +1,15 @@
+node_modules/
+dist/
+tools/
+video/node_modules/
+video/composition/assets/
+video/renders/
+video/*.mp4
+video/*.webm
+video/*.mp3
+video/*.wav
+deliverables/
+*.log
+video/assets/
+video/composition/.hyperframes/
+premium-audit.json

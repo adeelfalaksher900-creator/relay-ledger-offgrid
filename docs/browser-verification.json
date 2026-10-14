@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14",
+  "results": [
+    "Complete offline installation verified",
+    "Encrypted UI handoff and explicit workspace adoption",
+    "Wrong passphrase rejected through actual UI",
+    "Two independent browser contexts retain and resolve concurrent statuses",
+    "Old encrypted handoff does not resurrect resolved conflict",
+    "Reload and local task edit available with browser network disabled",
+    "Automated axe scan: zero violations on board state",
+    "390px mobile layout: no horizontal overflow"
+  ],
+  "limits": "Automated local Chromium; physical camera and human usability not tested."
+}

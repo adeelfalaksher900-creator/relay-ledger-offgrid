@@ -1,0 +1,27 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": [
+    "src"
+  ],
+  "locale": "en",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": [
+    "Select/Listbox",
+    "Form",
+    "Toast",
+    "CRUD"
+  ],
+  "ownership": {
+    "Select/Listbox": "native"
+  },
+  "requiredCommands": [
+    "unit"
+  ],
+  "commands": {
+    "unit": "npm test"
+  },
+  "evidence": {
+    "crudFullFlow": "tests/ledger.test.mjs",
+    "failurePaths": "tests/ledger.test.mjs"
+  }
+}
